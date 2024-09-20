@@ -15,7 +15,9 @@ function sortear(){
 
         NumerosSorteados.push(numero);
     }
-    
+    //alert(NumerosSorteados);
+    //novo merge request
+
     let resultado = document.getElementById('resultado');
     resultado.innerHTML = `<label class="texto__paragrafo">Números sorteados: ${NumerosSorteados}</label>`;
     alterarStatusBotao(); 
